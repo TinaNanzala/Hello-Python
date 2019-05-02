@@ -1,55 +1,55 @@
-class Circle:
-	def__init__(self,radius)
-	self.radius = radius
+class Circle():
+    def __init__(self, r):
+        self.radius = r
 
-	def Area(self,Area):
-		self.radius=radius
-		Area(3.14)*(radius*radius)
-		print(Area)
-
-
-	def circumference(self):
-		self.radius=radius
-		for area in area:
-		circumference=2*(3.14)*radius
-		print(circumference)
+    def area(self):
+    	r=self.radius
+    	area=3.14*radius*radius
+    	print(area)
+    def circumference(self):
+    	r=self.radius
+    	circumference=3.14*2*radius
+    	print(circumference)
 class Square:
-	def __init__(self,side);
+	def __init__(self,side):
 		self.side=side
 
-    def Area(self,Area)
-    	self.side=side
-    	for area in area:
-		Area=a(A)
+    def Area(self):
+    	side=self.side
+		Area=side*side
 		print(Area)
 
-	def perimeter(self,perimeter)
+	def perimeter(self):
 		self.side=side
-	    perimeter=4*a(p)
-	    for b in perimeter:
+	    perimeter=4*side
 	    	print(b)
 class Rectangle:
-	def__init__(self,w,l)
-		self.Area=Area
-		self.perimeter=perimeter
+	def __init__(self,w,l):
+		self.w=w
+		self.l=l
 
-	def area(self,area)
-		Area=(W)*L
-		for c in width;
+
+	def area(self):
+		w=self.w
+		l=self.l
 		print(c)
-	def perimeter(self,perimeter)
-		p=2(L+W)
-		for d in p;
+	def perimeter(self):
+		p=2*(w+l)
 		print(p)
 class Sphere:
-	def__init__(self,radius,surface area,volume)
+	def __init__(self,radius):
 	self.radius=radius
-	self.surface area=surafce area
-	self.volume=volume
-	def Area (self,Area)
-	    Area=4r(3.14)
-	    for d in Area:
-	    	print(d)
+	
+	
+	def Area (self):
+		radius=self.radius
+	    Area=4*radius*radius*(3.14)
+	 	print(d)
+
+	def volume(self):
+		radius=self.radius
+		volume=4/3*3.14*radius*radius*radius
+		print(v)
 
 	
 
